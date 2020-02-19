@@ -35,7 +35,7 @@ def alle_mogelijk_gok():
     return alle_mogelijkheden
 
 
-def verwijder_gokken(secret_code, alle_mogelijkheden):     # Bron for the while loop : Iwan
+def verwijder_gokken(secret_code, alle_mogelijkheden):   # Bron for the while loop : Iwan
     eerstekeer = 0
     while True:
         if eerstekeer == 0:
